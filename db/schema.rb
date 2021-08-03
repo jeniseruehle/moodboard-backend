@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 2021_08_03_184837) do
 
   create_table "moods", force: :cascade do |t|
     t.string "name"
-    t.string "descriotion"
+    t.string "desc"
     t.string "image"
     t.bigint "board_id", null: false
     t.datetime "created_at", precision: 6, null: false
